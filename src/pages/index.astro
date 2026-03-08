@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import YSWSSection from '../components/YSWSSection.astro';
+import ClubsCTA from '../components/ClubsCTA.astro';
+import Footer from '../components/Footer.astro';
+
+const title = "Hack Club Kerala";
+const description = "The Hack Club community in Kerala. Build, ship, and grow with us.";
+---
+
+<Layout title={title} description={description}>
+	<Navbar />
+	<main>
+		<Hero />
+		<ClubsCTA />
+	</main>
+	<Footer />
+</Layout>
